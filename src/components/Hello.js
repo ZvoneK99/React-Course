@@ -1,5 +1,11 @@
+const name ="Zvone";
+
+const displayMessage = () => {
+    return "Đesi seronjo!"
+};
 function Hello() {
-    return <h1>Hello World!</h1>
+    return <h1>Message is {displayMessage()}</h1>
+
 }
 
 export default Hello;
